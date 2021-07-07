@@ -22,7 +22,7 @@ project = u'PyJSON5'
 copyright = u'2018-2020, René Kijewski'
 author = u'René Kijewski'
 
-with open('../src/VERSION', 'rt') as f:
+with open('../VERSION', 'rt') as f:
     version = eval(f.read().strip())
     release = version
 
